@@ -1,0 +1,117 @@
+
+main{
+    
+    margin: auto;
+    margin-top:0;
+    
+    width: 70vw;
+
+    padding: 20px;
+}
+
+
+.container{
+    display: block;
+    margin: 20px;
+    border: 1px solid rgb(193, 193, 193);
+    background-color: rgb(236, 227, 227);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+
+#home{
+    display: flex;
+    
+}
+
+#home img{
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+
+    margin-right: 45px;
+}
+
+.description{
+    width: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description div{
+    margin-bottom: 10px;
+}
+
+
+
+.head{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.subHead{
+    font-size: 17px;
+}
+
+.button{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.button:hover{
+    text-decoration: underline;
+}
+
+.homeBut{
+    margin-top: 30px;
+}
+
+
+/*
+Eduactions Section
+*/
+
+#edu .head.flex{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#edu span{
+    display: block;
+}
+
+#edu img{
+    display: flex;
+    width: 8vw;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+.educontainer{
+    margin-right: 20px;
+    width: 15vw;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 10px;
+
+}
+
+
+.eduHead{
+    font-weight: bold;
+}
+
+
+.mainedu{
+    margin-bottom: 50px;
+}

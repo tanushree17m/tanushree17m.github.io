@@ -1,0 +1,131 @@
+@media screen and (max-width: 957px) {
+
+    nav{
+        display: block;
+        height: 6vh;
+    }
+
+    #res{
+        display: none;
+    }
+
+    div.responsive_button{
+        z-index: 1;
+        display: block;
+        
+        position: absolute;
+        right: 0;
+
+        
+    }
+
+    div.responsive_button span{
+        
+        font-size: 35px;
+    }
+
+    .logo{
+        
+        float: left;
+    }
+
+    .sidebar{
+        top: 0;
+        position: absolute;
+        right: 0;
+        width: 100vw;
+        background-color: black;
+    }
+    .sidebar ul{
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    .sidebar li{
+        margin: 20px;
+    }
+
+
+    #home img{
+        width: 300px;
+    }
+    
+}
+
+
+@media screen and (max-width:320px) {
+    .logo{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width:566px) {
+    footer{
+        display: block;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .foimg{
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+
+/*Home Main*/
+@media screen  and (max-width:830px) {
+
+    main{
+        width: 90vw;
+        padding: 5px;
+    }
+}
+
+@media screen  and (max-width:664px){
+    #home{
+        flex-direction: column;
+    }
+
+    #home img{
+        width: 200px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .head{
+        font-size: 25px;
+    }
+
+    .subHead{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:730px) {
+
+    .educontainer{
+        width: 25vw;
+    }
+    
+}
+
+@media screen and (max-width:616px) {
+
+    .column{
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+        
+    }
+
+    .educontainer{
+        margin-bottom: 25px;
+        width: 50vw;
+    }
+    
+}

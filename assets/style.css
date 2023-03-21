@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*:focus{
+    outline: none;
+}
+
+::selection {
+    color: black;
+    background: rgba(248, 219, 164, 1);
+  }
+
+
+
+/*body*/
+body{
+    background-color: rgb(224, 211, 211);
+}
+
+/* Navigation bar Starts */
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+
+
+.responsive_button{
+    display: none;
+}
+
+nav ul a:hover{
+    background-color: rgb(163, 163, 163, .5);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, rgb(30, 30, 30), rgb(72, 72, 72));
+    padding: 10px;
+    overflow: hidden;
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul{
+    margin: 5px;
+    list-style: none;
+    color: white;
+    display: flex;
+    font-size: 15px;
+}
+
+
+nav li{
+    margin-right: 15px;
+    
+}
+
+
+.responsive_button{
+    cursor: pointer;
+}
+/* Navigation bar ends */
+
+
+
+/*Footer*/
+
+footer{
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: absolute;
+    right: 0;   /*https://codepen.io/cbracco/pen/kQmVGM*/
+    left: 0; /*https://codepen.io/cbracco/pen/kQmVGM*/
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer img{
+    
+    width: 20px;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer li{
+    margin: 10px;
+}
+
+/* Footer Ends */
+
+
+.textCenter{
+    text-align: center;
+}

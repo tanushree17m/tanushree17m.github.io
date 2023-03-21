@@ -1,0 +1,17 @@
+.head{
+    font-weight: bold;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+.centre{
+    text-align: center;
+}
+
+.jutifiedCenter{
+    justify-content: center;
+}
