@@ -115,3 +115,28 @@ Eduactions Section
 .mainedu{
     margin-bottom: 50px;
 }
+
+/*Contact*/
+
+#contact ul{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+#contact li{
+    list-style: none;
+
+
+    
+}
+
+#contact img{
+    width: 10vw;
+}
+
+#contact img:hover{
+    animation-name: contactIcon;
+    animation-duration: .5s;
+}
+
